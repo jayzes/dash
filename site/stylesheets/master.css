@@ -1,0 +1,126 @@
+/* All font-faces: */
+@font-face {
+	font-family: "RoadGeek";
+	src: local("Roadgeek 2005 Transport Medium"), url("fonts/Roadgeek 2005 Transport Medium.otf");
+}
+
+* { margin: 0; padding: 0; }
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: rgb(10, 11, 12);
+	font-family: "RoadGeek";
+	text-shadow:rgba(0,0,0,0.01) 0 0 0;
+	color: white;
+}
+#container {
+	margin: 2px auto 2px auto;
+}
+
+h1 {
+	text-align: right;
+}
+
+.red-text {
+	color: #ff3b15;
+}
+
+.red-bg {
+	background-color: #ff3b15;
+}
+
+.orange-text {
+	color: #f36b21;
+}
+
+.orange-bg {
+	background-color: #f36b21;
+}
+
+.yellow-text {
+	color: #fbbe16;
+}
+
+.yellow-bg {
+	background-color: #fbbe16;
+}
+
+.green-text {
+	color: #47c716;
+}
+
+.green-bg {
+	background-color: #47c716;
+}
+
+/* Possible modules */
+.rounded-corners {
+	-webkit-border-radius: 10px; 
+	border: 1px solid #000; 
+	padding: 10px;
+	margin: 5px;
+	-webkit-box-shadow: 1px 1px 3px black;
+}
+
+.medium-bg {
+	background-color: rgb(50, 50, 50);
+}
+
+.dark-bg {
+	background-color: rgb(25, 25, 25);
+}
+
+.light-bg {
+	background-color: rgb(75, 75, 75);
+}
+
+.indent {
+	margin-left: 15px;
+}
+
+ul#schedules {
+	list-style: none;
+}
+
+ul#schedules li {
+	height: 100px;
+	clear: both;
+}
+
+ul#schedules li div {
+	display: block;
+	-webkit-border-radius: 5px; 
+	border: none; 
+	padding: 10px;
+	margin: 5px;
+	height: 80px;
+	vertical-align: middle;
+	font-size: 36pt;
+}
+
+ul#schedules li div.name, ul#schedules li div.project {
+	width: 300px;
+	float: left;
+	clear: none;
+}
+
+ul#schedules li div.gravatar {
+	float: left;
+	clear: none;
+}
+
+ul#schedules li div.status {
+	-webkit-border-radius: 25px; 
+	width: 150px;
+	text-align: center;
+	float: left;
+	clear: none;
+	font-size: 60pt;
+}
+
+ul#schedules li div.status span.days {
+	display: block;
+	clear: both;
+	font-size: 12pt;
+}

@@ -1,0 +1,71 @@
+!!!
+%html{ "xml:lang" => "en", :lang => "en", :xmlns => "http://www.w3.org/1999/xhtml" }
+	%head
+		%meta{ :content => "text/html; charset=utf-8", "http-equiv" => "Content-Type" }
+		%title
+			Codearchy / Statusarchy
+		%script{ :src => "http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js", 			:type => "text/javascript" }
+		%script{ :src => "http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js", 	:type => "text/javascript" }
+		%script{ :src => "javascripts/jquery.ba-dotimeout.min", :type => "text/javascript" }
+		%script{ :src => "javascripts/raphael-min.js", 					:type => "text/javascript" }
+		%script{ :src => "javascripts/g.raphael-min.js", 				:type => "text/javascript" }
+		%script{ :src => "javascripts/g.bar-min.js", 						:type => "text/javascript" }
+		%script{ :src => "javascripts/g.pie-min.js", 						:type => "text/javascript" }
+		%script{ :src => "javascripts/md5.js", 									:type => "text/javascript" }
+		%script{ :src => "javascripts/jquery.gravatar.js", 			:type => "text/javascript" }
+		%script{ :src => "javascripts/main.js", 								:type => "text/javascript" }
+		%link{ :href => "stylesheets/master.css", :rel => "stylesheet", :media => "screen", :type => "text/css", :charset => "utf-8" }
+		
+	%body
+		%h1.rounded-corners.medium-bg Thursday 4.1.2010
+		
+		%div.rounded-corners.dark-bg
+			%ul#schedules
+				%li
+					.status.green-bg
+						&mdash;
+						%span.days days
+					.name.light-bg Audi
+					.project.light-bg IMS
+					.gravatar.light-bg
+						%span.gravatar-replace jay.zeschin@factorylabs.com
+						%span.gravatar-replace justin.smestad@factorylabs.com
+				%li
+					.status.green-bg
+						30
+						%span.days days
+					.name.light-bg Audi
+					.project.light-bg Iron Man
+					.gravatar.light-bg
+						%span.gravatar-replace grant@factorylabs.com
+				%li
+					.status.yellow-bg
+						15
+						%span.days dayS
+					.name.light-bg Vans
+					.project.light-bg House of Vans
+					.gravatar.light-bg 
+						%span.gravatar-replace don.petersen@factorylabs.com
+						%span.gravatar-replace justin@factorylabs.com
+						%span.gravatar-replace brandon@collectiveidea.com
+					
+				%li
+					.status.red-bg
+						10
+						%span.days days
+					.name.light-bg Oakley
+					.project.light-bg OCP
+					.gravatar.light-bg 
+						%span.gravatar-replace ryan.boyajian@factorylabs.com
+				%li
+					.status.green-bg
+						100
+						%span.days days
+					.name.light-bg North Face
+					.project.light-bg VFOC CMS
+					.gravatar.light-bg 
+						%span.gravatar-replace matt.kitt@factorylabs.com
+						%span.gravatar-replace gabe.varela@factorylabs.com
+						%span.gravatar-replace jeremy@factorylabs.com
+						
+		%h1.rounded-corners.medium-bg 11.50am
